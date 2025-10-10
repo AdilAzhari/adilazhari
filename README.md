@@ -1,12 +1,11 @@
 ## 👋 Hi there, I'm Adil
 
-I'm a backend developer from **Sudan**, currently based in **Malaysia** 🇲🇾.  
+I'm a backend developer based in **Malaysia** 🇲🇾.  
 I specialize in **Laravel**, **Inertia.js**, and **Vue.js**, and I’m passionate about clean code, modular design, and scalable backend architecture.
 
 ---
 
-### 👨‍💻 I'm currently working on
-- Building real-world systems like a **Car Rental Management System** and a **Supermarket Management System**
+### 👨‍💻 I'm currently working on Building **Car Rental Management System** and a **Supermarket Management System**
 - Enhancing my **backend architecture** skills with **design patterns**, **DTOs**, and **clean modular code**
 
 ---
@@ -18,8 +17,8 @@ I specialize in **Laravel**, **Inertia.js**, and **Vue.js**, and I’m passionat
 ---
 
 ### 🧠 I'm looking for help with
-- Improving my **algorithmic thinking** and **data structure** problem-solving for technical interviews  
-- Exploring **scalable backend designs** and **testing best practices** in Laravel
+- Improving my **algorithmic thinking** and **data structure** problem-solving 
+- Exploring **scalable backend designs**
 
 ---
 
