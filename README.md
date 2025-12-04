@@ -1,44 +1,57 @@
 ## 👋 Hi there, I'm Adil
 
 I'm a backend developer based in **Malaysia** 🇲🇾.  
-I specialize in **Laravel**, **Inertia.js**, and **Vue.js**, and I’m passionate about clean code, modular design, and scalable backend architecture.
+
+working primarily with Laravel, Inertia.js, and Vue.js.
+I enjoy building reliable backend systems and structuring codebases that are clean, maintainable, and easy to scale
 
 ---
 
+## Core Strengths
+
+- Building modular Laravel applications with clear domain boundaries
+
+- Crafting RESTful APIs and backend logic with strong validation and security practices
+
+- Integrating Inertia.js + Vue.js for smooth full-stack development
+
+- Designing efficient database schemas and optimising queries
+
+- Implementing Filament dashboards with permissions, metrics, and custom workflows
+
+- Writing cleaner, more methodical backend architecture
+
+---
 ### 👨‍💻 I'm currently working on Building **Car Rental Management System** and a **Supermarket Management System**
 - Enhancing my **backend architecture** skills with **design patterns**, **DTOs**, and **clean modular code**
 
 ---
 
-### 🤝 I'm looking to collaborate on
-- **Laravel**, **Vue.js**, or **Inertia.js** open-source projects  
-- Systems involving **POS**, **inventory management**, or **rental workflows**
+### 🤝 I'm open to collaborate on:
 
----
+- **Laravel**, **Vue.js**, or **Inertia.js** open-source projects with a strong backend focus
 
-### 🧠 I'm looking for help with
-- Improving my **algorithmic thinking** and **data structure** problem-solving 
-- Exploring **scalable backend designs**
+- Systems that involve workflow automation, operations dashboards, or transaction-heavy logic
 
 ---
 
 ### 📚 I'm currently learning
-- **System Design & Scalable Backend Architecture** — writing modular and maintainable Laravel code  
-- **Testing & Quality Assurance** — building reliable test suites using **Pest** and **PHPUnit**  
-- **Advanced Eloquent Patterns** — leveraging Observers, DTOs, and Repository structures  
-- **Data Structures & Algorithms** — sharpening my problem-solving skills for interviews
-
+- **Scalable System Design** — caching strategies, modular architecture, and high-reliability backend patterns
+- **Testing & Code Quality** — building dependable test suites with Pest, PHPUnit, and continuous integration practices
+- **Advanced Laravel Internals** — Observers, custom pipelines, ... Etc.
 ---
 
 ### 💬 Ask me about
 - **Backend development** with Laravel  
 - **Integrating Inertia.js and Vue.js** in Laravel projects  
-- **Filament customization**, role-based permissions, and dashboard design
+- **Filament customization**
+- **Testing** =>
 
 ---
 
 ### ⚡ Fun fact
-When I’m not coding, I’m probably refactoring something that already works — just to make it cleaner 😄
+I’m continuously improving my craft and always looking for ways to write cleaner, more predictable code.
+Refactoring and optimising existing systems is something I genuinely enjoy — it pushes me to think more critically
 
 ---
 
@@ -78,5 +91,8 @@ When I’m not coding, I’m probably refactoring something that already works �
 ---
 
 [![](https://visitcount.itsvg.in/api?id=AdilAzhari&icon=0&color=0)](https://visitcount.itsvg.in)
+
+
+---
 
 <!-- Proudly built and maintained by Adil Azhari -->
