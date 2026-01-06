@@ -1,98 +1,117 @@
-## 👋 Hi there, I'm Adil
+## 👋 Hi, I’m Adil
 
-I'm a backend developer based in **Malaysia** 🇲🇾.  
+Backend-focused software engineer based in **Malaysia** 🇲🇾
+I design and build **reliable, transaction-heavy backend systems** with a strong emphasis on **clean architecture, correctness, and long-term maintainability**.
 
-working primarily with Laravel, Inertia.js, and Vue.js.
-I enjoy building reliable backend systems and structuring codebases that are clean, maintainable, and easy to scale
-
----
-
-## Core Strengths
-
-- Building modular Laravel applications with clear domain boundaries
-
-- Crafting RESTful APIs and backend logic with strong validation and security practices
-
-- Integrating Inertia.js + Vue.js for smooth full-stack development
-
-- Designing efficient database schemas and optimising queries
-
-- Implementing Filament dashboards with permissions, metrics, and custom workflows
-
-- Writing cleaner, more methodical backend architecture
-
----
-### 👨‍💻 I'm currently working on Building **Car Rental Management System** and a **Supermarket Management System**
-- Enhancing my **backend architecture** skills with **design patterns**, **DTOs**, and **clean modular code**
+I work primarily with **Laravel**, **Inertia.js**, and **Vue.js**, using them deliberately — not as shortcuts, but as tools to express sound engineering decisions.
 
 ---
 
-### 🤝 I'm open to collaborate on:
+## 🧠 Engineering Focus
 
-- **Laravel**, **Vue.js**, or **Inertia.js** open-source projects with a strong backend focus
+I’m most effective when working on systems that require **clear domain boundaries** and **predictable behavior under load**.
 
-- Systems that involve workflow automation, operations dashboards, or transaction-heavy logic
+My strengths include:
 
----
-
-### 📚 I'm currently learning
-- **Scalable System Design** — caching strategies, modular architecture, and high-reliability backend patterns
-- **Testing & Code Quality** — building dependable test suites with Pest, PHPUnit, and continuous integration practices
-- **Advanced Laravel Internals** — Observers, custom pipelines, ... Etc.
----
-
-### 💬 Ask me about
-- **Backend development** with Laravel  
-- **Integrating Inertia.js and Vue.js** in Laravel projects  
-- **Filament customization**
-- **Testing** =>
+* Designing backend systems with **explicit domain modeling** and clean separation of concerns
+* Building **RESTful APIs** with attention to idempotency, validation, and failure modes
+* Structuring Laravel applications using **Actions, DTOs, Policies, and Observers**
+* Designing relational databases with a strong understanding of **indexes, transactions, and consistency**
+* Identifying and preventing **concurrency issues** in inventory and checkout flows
+* Writing tests that cover **edge cases, failure paths, and race conditions**
+* Building admin dashboards with **Filament**, including permissions, metrics, and operational workflows
 
 ---
 
-### ⚡ Fun fact
-I’m continuously improving my craft and always looking for ways to write cleaner, more predictable code.
-Refactoring and optimising existing systems is something I genuinely enjoy — it pushes me to think more critically
+## 🏗️ Current Work
+
+I’m actively building and refining:
+
+* **Car Rental Management System**
+  Focused on workflow orchestration, role-based access, and operational visibility
+
+* **Supermarket / E-commerce System**
+  A transaction-heavy backend featuring:
+
+  * Cart → checkout orchestration
+  * Stock reservation with concurrency safety
+  * Idempotent checkout
+  * Explicit domain exceptions
+  * High test coverage for failure scenarios
+
+My current learning priority is **architectural depth**, not new frameworks.
+
+---
+
+## 📚 What I’m Deepening Right Now
+
+* **System Design**
+  Caching strategies, background jobs, scalability trade-offs, and failure recovery
+
+* **Testing & Reliability**
+  Domain-level unit tests, feature tests, concurrency-safe test design, CI workflows
+
+* **Laravel Internals (Advanced Use)**
+  Custom pipelines, and framework extension points
+
+---
+
+## 🤝 Open to Collaboration
+
+I’m interested in collaborating on projects that involve:
+
+* Backend-heavy Laravel systems
+* Transactional workflows (orders, payments, inventory, scheduling)
+* Operations dashboards and internal tools
+* Codebases that value **clarity, discipline, and long-term maintainability**
+
+---
+
+## 💬 You Can Ask Me About
+
+* Backend architecture with Laravel
+* Designing clean checkout and inventory systems
+* Inertia.js + Vue.js integration from a backend-first perspective
+* Testing strategies for complex business logic
+* Filament customization for real operational use cases
+
+---
+
+## ⚡ Engineering Philosophy
+
+I value **predictability over cleverness** and **clarity over abstraction for its own sake**.
+I enjoy refactoring existing systems because it forces better reasoning, sharper boundaries, and more deliberate trade-offs.
 
 ---
 
 ## 🌐 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adil-omer-8aab21167/) 
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:adilazhariosman@gmail.com)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/adil-omer-8aab21167/)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail\&logoColor=white)](mailto:adilazhariosman@gmail.com)
 
 ---
 
-## 💻 Tech Stack
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-![Vue.js](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-![Inertia.js](https://img.shields.io/badge/inertia.js-%234b32c3.svg?style=for-the-badge&logo=inertia&logoColor=white)
-![Livewire](https://img.shields.io/badge/livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
-![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+## 🧰 Tech Stack (Primary)
+
+* **Backend**: PHP, Laravel
+* **Frontend (integration)**: Inertia.js, Vue.js
+* **Databases**: MySQL
+* **Caching & Queues**: Redis
+* **Infrastructure**: Nginx, Apache
+* **Auth**: JWT, Sanctum
+* **Tooling**: Git, GitHub Actions, PHPUnit, Pest
+* **UI / Admin**: Filament, Tailwind CSS
 
 ---
 
-## 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=AdilAzhari&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
-![](https://nirzak-streak-stats.vercel.app/?user=AdilAzhari&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=AdilAzhari&theme=dark&hide_border=false&layout=compact)
+## 📊 GitHub Activity
+
+![](https://github-readme-stats.vercel.app/api?username=AdilAzhari\&theme=dark\&hide_border=false)
+![](https://nirzak-streak-stats.vercel.app/?user=AdilAzhari\&theme=dark\&hide_border=false)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=AdilAzhari\&theme=dark\&hide_border=false\&layout=compact)
 
 ---
 
 ## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=AdilAzhari&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=AdilAzhari&theme=onedark)](https://github.com/AdilAzhari/github-profile-trophy)
----
-
-[![](https://visitcount.itsvg.in/api?id=AdilAzhari&icon=0&color=0)](https://visitcount.itsvg.in)
-
----
-
-<!-- Proudly built and maintained by Adil Azhari -->
+![](https://github-profile-trophy.vercel.app/?username=AdilAzhari\&theme=onedark\&margin-w=6)
