@@ -91,6 +91,14 @@ I’m interested in collaborating on projects that involve:
 
 ---
 
+## Testing Philosophy
+This project emphasizes:
+- Failure-path testing
+- Concurrency safety
+- Domain-level correctness
+
+---
+
 ## ⚡ Engineering Philosophy
 
 I value **predictability over cleverness** and **clarity over abstraction for its own sake**.
@@ -125,7 +133,3 @@ I enjoy refactoring existing systems because it forces better reasoning, sharper
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=AdilAzhari\&theme=dark\&hide_border=false\&layout=compact)
 
 ---
-
-## 🏆 GitHub Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=AdilAzhari\&theme=onedark\&margin-w=6)
