@@ -23,6 +23,20 @@ My strengths include:
 
 ---
 
+### ⭐ Featured Project
+🔹 **E-commerce / Supermarket Backend System**  
+A production-style backend focusing on:
+- Checkout orchestration
+- Concurrency-safe stock reservation
+- Idempotent APIs
+- Explicit domain modeling
+- High test coverage (failure paths & race conditions)
+
+➡️ Repository: <link>
+➡️ Architecture overview: <link to ARCHITECTURE.md>
+
+---
+
 ## 🏗️ Current Work
 
 I’m actively building and refining:
