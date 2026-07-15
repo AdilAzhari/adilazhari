@@ -1,135 +1,110 @@
 ## 👋 Hi, I’m Adil
 
 Backend-focused software engineer based in **Malaysia** 🇲🇾
-I design and build **reliable, transaction-heavy backend systems** with a strong emphasis on **clean architecture, correctness, and long-term maintainability**.
+I design and build **reliable, high-throughput enterprise systems** with a strong emphasis on **Domain-Driven Design (DDD), clean architecture, and reactive, real-time mechanics**.
 
-I work primarily with **Laravel**, **Inertia.js**, and **Vue.js**, using them deliberately — not as shortcuts, but as tools to express sound engineering decisions.
+I work deliberately with modern backend and frontend ecosystems — utilizing tools not as simple shortcuts, but as vehicle implementations for sound architectural decisions.
 
 ---
 
 ## 🧠 Engineering Focus
 
-I’m most effective when working on systems that require **clear domain boundaries** and **predictable behavior under load**.
+I’m most effective when working on systems that require **clear domain boundaries**, **strict transaction safety**, and **predictable behavior under load**.
 
 My strengths include:
 
-* Designing backend systems with **explicit domain modeling** and clean separation of concerns
-* Building **RESTful APIs** with attention to idempotency, validation, and failure modes
-* Structuring Laravel applications using **Actions, DTOs, Policies, and Observers**
-* Designing relational databases with a strong understanding of **indexes, transactions, and consistency**
-* Identifying and preventing **concurrency issues** in inventory and checkout flows
-* Writing tests that cover **edge cases, failure paths, and race conditions**
-* Building admin dashboards with **Filament**, including permissions, metrics, and operational workflows
+* Designing enterprise backends with **explicit domain modeling (DDD)** and clean separation of concerns
+* Architecting secure **multi-tenant layers** utilizing subdomain isolation and automated scoping traits
+* Designing scalable relational database schemas with a deep understanding of **concurrency control, indexing strategies, and transactional consistency**
+* Implementing asynchronous, event-driven pipelines utilizing **Redis queues and background workers**
+* Writing highly resilient test suites (**Pest / PHPUnit**) that cover edge cases, distributed failure modes, and race conditions
+* Building clean, reactive interfaces using **Vue.js 3 / React.js**, **Inertia.js**, and custom-tailored dashboards
 
 ---
 
 ### ⭐ Featured Project
-🔹 **E-commerce / Supermarket Backend System**  
-A production-style backend focusing on:
-- Checkout orchestration
-- Concurrency-safe stock reservation
-- Idempotent APIs
-- Explicit domain modeling
-- High test coverage (failure paths & race conditions)
+🔹 **Madarik (School Management System)** A high-throughput, production-ready institutional platform designed to manage complex student enrollments, academic scheduling, and high-frequency automated billing pipelines.
 
-➡️ Repository: <link>
-➡️ Architecture overview: <link to ARCHITECTURE.md>
+- **Real-Time Orchestration:** Integrated **Laravel Reverb** to build low-latency WebSocket connections for instant-rendering administration dashboards, providing real-time scheduling updates and operational metrics.
+- **Robust Billing Engine:** Engineered a secure, webhook-verified billing system integrated with **Stripe**, handling automated recurring invoicing, prorated subscription management, and transaction logging.
+- **Asynchronous Processing:** Utilized Redis queues to handle heavy background processing pipelines, offloading dynamic grading PDF compilation and automated multi-channel reporting.
+- **Reactive UI:** Leveraged **Inertia.js** with **Vue.js 3** and **React.js** components to deliver a seamless single-page application (SPA) experience with zero layout flashes.
+
+➡️ Repository: [View GitHub Repository](https://github.com/AdilAzhari/madarik)
 
 ---
 
-## 🏗️ Current Work
+## 🏗️ Core Projects
 
-I’m actively building and refining:
+* **Modular E-Commerce System** An enterprise-grade backend focused on strict domain separation and data isolation.
+  * **Domain Integrity:** Mitigated domain logic leakage by implementing Identity Value Objects and the Specification Pattern for complex rules.
+  * **Strict Isolation:** Engineered a secure multi-tenancy layer with subdomain identification and automated scoping traits to ensure 100% data partition safety.
+  * **System Decoupling:** Leveraged Laravel Domain Events to establish an asynchronous, event-driven flow between core modules.
 
-* **Car Rental Management System**
-  Focused on workflow orchestration, role-based access, and operational visibility
-
-* **Supermarket / E-commerce System**
-  A transaction-heavy backend featuring:
-
-  * Cart → checkout orchestration
-  * Stock reservation with concurrency safety
-  * Idempotent checkout
-  * Explicit domain exceptions
-  * High test coverage for failure scenarios
-
-My current learning priority is **architectural depth**, not new frameworks.
+* **Car Rental Management System** A transactional booking engine focused on workflow state machines, vehicle reservation availability constraints under multi-currency scenarios, and role-based access control (RBAC).
 
 ---
 
 ## 📚 What I’m Deepening Right Now
 
-* **System Design**
-  Caching strategies, background jobs, scalability trade-offs, and failure recovery
+* **Real-Time & Event-Driven Topologies** Scaling real-time event broadcasting with **Laravel Reverb** and Redis pub/sub. Exploring CQRS (Command Query Responsibility Segregation) and Event Sourcing models for audit-heavy architectures.
+  
+* **Advanced Frontend Paradigms** Deepening reactivity design patterns, performant global state management, and custom rendering hooks within **React.js** to build complex dashboards that bridge smoothly with backend APIs.
 
-* **Testing & Reliability**
-  Domain-level unit tests, feature tests, concurrency-safe test design, CI workflows
-
-* **Laravel Internals (Advanced Use)**
-  Custom pipelines, and framework extension points
+* **Complex Payment Workflows** Handling advanced, resilient payment cycles via **Stripe**—including metered billing, multi-party payouts, robust idempotent webhook reconciliation, and automated failure recovery scripts.
 
 ---
 
 ## 🤝 Open to Collaboration
 
-I’m interested in collaborating on projects that involve:
+I’m looking to connect with teams that appreciate **technical rigor, strict testing discipline, and deliberate design patterns** on projects involving:
 
-* Backend-heavy Laravel systems
-* Transactional workflows (orders, payments, inventory, scheduling)
-* Operations dashboards and internal tools
-* Codebases that value **clarity, discipline, and long-term maintainability**
+* Backend-heavy enterprise Laravel & PHP systems
+* Transactional billing pipelines and accounting reconciliation
+* Real-time collaborative applications using WebSockets
+* High-performance API refactoring, query optimizations, and caching layers
 
 ---
 
 ## 💬 You Can Ask Me About
 
-* Backend architecture with Laravel
-* Designing clean checkout and inventory systems
-* Inertia.js + Vue.js integration from a backend-first perspective
-* Testing strategies for complex business logic
-* Filament customization for real operational use cases
-
----
-
-## Testing Philosophy
-This project emphasizes:
-- Failure-path testing
-- Concurrency safety
-- Domain-level correctness
+* Backend architectural patterns (DDD, Clean Architecture, Value Objects)
+* Real-time application broadcasting architectures using **Laravel Reverb**
+* Handling enterprise-level billing pipelines securely with **Stripe**
+* Bridging backends seamlessly to **Inertia.js** with both **React.js** and **Vue.js** 3
+* Designing robust, transaction-safe database architectures
 
 ---
 
 ## ⚡ Engineering Philosophy
 
-I value **predictability over cleverness** and **clarity over abstraction for its own sake**.
-I enjoy refactoring existing systems because it forces better reasoning, sharper boundaries, and more deliberate trade-offs.
+I value **predictability over cleverness** and **clarity over abstraction for its own sake**. 
+I enjoy refactoring complex systems because it forces better reasoning, sharper boundaries, and more deliberate engineering trade-offs.
 
 ---
 
 ## 🌐 Connect With Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/adil-omer-8aab21167/)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail\&logoColor=white)](mailto:adilazhariosman@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adil-omer-8aab21167/)
+[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:adilazhariosman@gmail.com)
 
 ---
 
 ## 🧰 Tech Stack (Primary)
 
-* **Backend**: PHP, Laravel
-* **Frontend (integration)**: Inertia.js, Vue.js
-* **Databases**: MySQL
-* **Caching & Queues**: Redis
-* **Infrastructure**: Nginx, Apache
-* **Auth**: JWT, Sanctum
-* **Tooling**: Git, GitHub Actions, PHPUnit, Pest
-* **UI / Admin**: Filament, Tailwind CSS
+* **Languages**: PHP 8.x, SQL, HTML5, CSS3, JavaScript (ES6+)
+* **Backend Frameworks**: Laravel (9–13), Livewire
+* **Frontend Tech**: React.js, Vue.js 3 (Composition API), Inertia.js, Alpine.js, Tailwind CSS
+* **Real-time & APIs**: Laravel Reverb (WebSockets), RESTful APIs, OAuth2, JWT, JSON/XML
+* **Databases & Caching**: MySQL, Redis (Caching & Queues)
+* **Integrations**: Stripe Payments (Billing & Webhooks), Scribe API Docs
+* **Testing & Infrastructure**: PestPHP, PHPUnit, Docker, Docker Compose, GitHub Actions, Git
+* **Admin Panels**: Filament, Laravel Nova
 
 ---
 
 ## 📊 GitHub Activity
 
-![](https://github-readme-stats.vercel.app/api?username=AdilAzhari\&theme=dark\&hide_border=false)
-![](https://nirzak-streak-stats.vercel.app/?user=AdilAzhari\&theme=dark\&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=AdilAzhari\&theme=dark\&hide_border=false\&layout=compact)
-
----
+![](https://github-readme-stats.vercel.app/api?username=AdilAzhari&theme=dark&hide_border=false)
+![](https://nirzak-streak-stats.vercel.app/?user=AdilAzhari&theme=dark&hide_border=false)
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=AdilAzhari&theme=dark&hide_border=false&layout=compact)
