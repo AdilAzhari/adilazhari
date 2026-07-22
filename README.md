@@ -1,110 +1,230 @@
-## 👋 Hi, I’m Adil
+# 👋 Hi, I'm Adil Omer
 
-Backend-focused software engineer based in **Malaysia** 🇲🇾
-I design and build **reliable, high-throughput enterprise systems** with a strong emphasis on **Domain-Driven Design (DDD), clean architecture, and reactive, real-time mechanics**.
+Backend Software Engineer based in Malaysia 🇲🇾
 
-I work deliberately with modern backend and frontend ecosystems — utilizing tools not as simple shortcuts, but as vehicle implementations for sound architectural decisions.
+I build reliable backend systems using **PHP and Laravel**, with a focus on clean architecture, domain-driven design, database consistency, and maintainable software design.
+
+I enjoy solving complex backend problems involving business rules, transactional workflows, asynchronous processing, API integrations, and system reliability.
 
 ---
 
 ## 🧠 Engineering Focus
 
-I’m most effective when working on systems that require **clear domain boundaries**, **strict transaction safety**, and **predictable behavior under load**.
+I am most interested in building systems where correctness and maintainability matter.
 
-My strengths include:
+My main areas of focus:
 
-* Designing enterprise backends with **explicit domain modeling (DDD)** and clean separation of concerns
-* Architecting secure **multi-tenant layers** utilizing subdomain isolation and automated scoping traits
-* Designing scalable relational database schemas with a deep understanding of **concurrency control, indexing strategies, and transactional consistency**
-* Implementing asynchronous, event-driven pipelines utilizing **Redis queues and background workers**
-* Writing highly resilient test suites (**Pest / PHPUnit**) that cover edge cases, distributed failure modes, and race conditions
-* Building clean, reactive interfaces using **Vue.js 3 / React.js**, **Inertia.js**, and custom-tailored dashboards
-
----
-
-### ⭐ Featured Project
-🔹 **Madarik (School Management System)** A high-throughput, production-ready institutional platform designed to manage complex student enrollments, academic scheduling, and high-frequency automated billing pipelines.
-
-- **Real-Time Orchestration:** Integrated **Laravel Reverb** to build low-latency WebSocket connections for instant-rendering administration dashboards, providing real-time scheduling updates and operational metrics.
-- **Robust Billing Engine:** Engineered a secure, webhook-verified billing system integrated with **Stripe**, handling automated recurring invoicing, prorated subscription management, and transaction logging.
-- **Asynchronous Processing:** Utilized Redis queues to handle heavy background processing pipelines, offloading dynamic grading PDF compilation and automated multi-channel reporting.
-- **Reactive UI:** Leveraged **Inertia.js** with **Vue.js 3** and **React.js** components to deliver a seamless single-page application (SPA) experience with zero layout flashes.
-
-➡️ Repository: [View GitHub Repository](https://github.com/AdilAzhari/madarik)
+- Designing Laravel applications with clear domain boundaries and separation of concerns
+- Applying **Domain-Driven Design (DDD)** principles to model complex business logic
+- Building reliable transactional workflows involving payments, orders, and external integrations
+- Designing REST APIs with predictable contracts and maintainable structures
+- Improving application performance through database optimization, indexing, and caching
+- Implementing asynchronous workflows using queues and background workers
+- Writing automated tests using **PestPHP / PHPUnit**
+- Building modern interfaces with **Vue.js, Inertia.js, and Livewire**
 
 ---
 
-## 🏗️ Core Projects
+# 📦 Open Source
 
-* **Modular E-Commerce System** An enterprise-grade backend focused on strict domain separation and data isolation.
-  * **Domain Integrity:** Mitigated domain logic leakage by implementing Identity Value Objects and the Specification Pattern for complex rules.
-  * **Strict Isolation:** Engineered a secure multi-tenancy layer with subdomain identification and automated scoping traits to ensure 100% data partition safety.
-  * **System Decoupling:** Leveraged Laravel Domain Events to establish an asynchronous, event-driven flow between core modules.
+## Laravel Idempotency
 
-* **Car Rental Management System** A transactional booking engine focused on workflow state machines, vehicle reservation availability constraints under multi-currency scenarios, and role-based access control (RBAC).
+A Laravel package that prevents duplicate request execution using idempotency keys.
 
----
+Designed for protecting write operations such as payments, orders, and external API calls where retrying the same request can create unwanted side effects.
 
-## 📚 What I’m Deepening Right Now
+### Features
 
-* **Real-Time & Event-Driven Topologies** Scaling real-time event broadcasting with **Laravel Reverb** and Redis pub/sub. Exploring CQRS (Command Query Responsibility Segregation) and Event Sourcing models for audit-heavy architectures.
-  
-* **Advanced Frontend Paradigms** Deepening reactivity design patterns, performant global state management, and custom rendering hooks within **React.js** to build complex dashboards that bridge smoothly with backend APIs.
+- Middleware-based idempotency handling
+- Request fingerprinting using SHA-256
+- Response replay for repeated requests
+- Conflict detection for reused keys with different requests
+- Cache-based locking to prevent concurrent execution
+- Extensible contracts for storage, locking, and fingerprinting
+- Automated quality pipeline using:
+  - PestPHP
+  - PHPStan
+  - Rector
+  - Laravel Pint
 
-* **Complex Payment Workflows** Handling advanced, resilient payment cycles via **Stripe**—including metered billing, multi-party payouts, robust idempotent webhook reconciliation, and automated failure recovery scripts.
+Repository:
 
----
-
-## 🤝 Open to Collaboration
-
-I’m looking to connect with teams that appreciate **technical rigor, strict testing discipline, and deliberate design patterns** on projects involving:
-
-* Backend-heavy enterprise Laravel & PHP systems
-* Transactional billing pipelines and accounting reconciliation
-* Real-time collaborative applications using WebSockets
-* High-performance API refactoring, query optimizations, and caching layers
+🔗 https://github.com/AdilAzhari/laravel-idempotency
 
 ---
 
-## 💬 You Can Ask Me About
+# 🚀 Featured Projects
 
-* Backend architectural patterns (DDD, Clean Architecture, Value Objects)
-* Real-time application broadcasting architectures using **Laravel Reverb**
-* Handling enterprise-level billing pipelines securely with **Stripe**
-* Bridging backends seamlessly to **Inertia.js** with both **React.js** and **Vue.js** 3
-* Designing robust, transaction-safe database architectures
+## Madarik — School Management System
 
----
+A Laravel-based platform designed to manage academic workflows, student records, and administrative operations.
 
-## ⚡ Engineering Philosophy
+### Highlights
 
-I value **predictability over cleverness** and **clarity over abstraction for its own sake**. 
-I enjoy refactoring complex systems because it forces better reasoning, sharper boundaries, and more deliberate engineering trade-offs.
+- Designed backend workflows for student management, grading, and reporting
+- Implemented role-based access control for different user groups
+- Used Redis queues for background processing tasks
+- Built interactive dashboards using Laravel, Vue.js, and Inertia.js
+- Focused on maintainable domain logic and scalable application structure
 
----
+Repository:
 
-## 🌐 Connect With Me
+🔗 https://github.com/AdilAzhari/madarik
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adil-omer-8aab21167/)
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:adilazhariosman@gmail.com)
 
 ---
 
-## 🧰 Tech Stack (Primary)
+## Modular E-Commerce System
 
-* **Languages**: PHP 8.x, SQL, HTML5, CSS3, JavaScript (ES6+)
-* **Backend Frameworks**: Laravel (9–13), Livewire
-* **Frontend Tech**: React.js, Vue.js 3 (Composition API), Inertia.js, Alpine.js, Tailwind CSS
-* **Real-time & APIs**: Laravel Reverb (WebSockets), RESTful APIs, OAuth2, JWT, JSON/XML
-* **Databases & Caching**: MySQL, Redis (Caching & Queues)
-* **Integrations**: Stripe Payments (Billing & Webhooks), Scribe API Docs
-* **Testing & Infrastructure**: PestPHP, PHPUnit, Docker, Docker Compose, GitHub Actions, Git
-* **Admin Panels**: Filament, Laravel Nova
+A Laravel application focused on applying software design principles to complex business workflows.
+
+### Highlights
+
+- Structured application logic around clear business domains
+- Applied Domain-Driven Design concepts such as:
+  - Value Objects
+  - Domain Events
+  - Business rule isolation
+- Designed multi-tenant architecture with automated tenant scoping
+- Implemented event-driven workflows between business modules
+- Built administrative interfaces using Filament
 
 ---
 
-## 📊 GitHub Activity
+# 📚 Currently Learning
 
-![](https://github-readme-stats.vercel.app/api?username=AdilAzhari&theme=dark&hide_border=false)
-![](https://nirzak-streak-stats.vercel.app/?user=AdilAzhari&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=AdilAzhari&theme=dark&hide_border=false&layout=compact)
+## Backend Architecture
+
+Exploring deeper concepts around:
+
+- Domain-Driven Design
+- Event-driven architectures
+- CQRS patterns
+- Distributed systems fundamentals
+- Database consistency and transaction design
+
+---
+
+## Payments & Reliability
+
+Learning how to build resilient payment workflows involving:
+
+- Webhook handling
+- Idempotent processing
+- Payment reconciliation
+- Failure recovery strategies
+
+---
+
+## Real-Time Applications
+
+Exploring:
+
+- Laravel Reverb
+- WebSocket-based communication
+- Real-time dashboards
+- Event broadcasting patterns
+
+---
+
+# 🛠️ Technical Stack
+
+### Backend
+
+- PHP 8.x
+- Laravel
+- REST APIs
+- MySQL
+- Redis
+- Queues
+- Background processing
+
+### Architecture & Design
+
+- Domain-Driven Design
+- SOLID Principles
+- Clean Architecture
+- Event-Driven Architecture
+- Design Patterns
+
+### Frontend
+
+- Vue.js 3
+- Inertia.js
+- Livewire
+- Alpine.js
+- Tailwind CSS
+
+### Testing & Quality
+
+- PestPHP
+- PHPUnit
+- PHPStan
+- Rector
+- Laravel Pint
+
+### Tools & Infrastructure
+
+- Git
+- GitHub Actions
+- Docker
+- Composer
+- NPM
+
+### Integrations
+
+- Stripe Payments
+- Webhooks
+- OAuth
+- API Documentation
+
+---
+
+# 🤝 Open To Collaboration
+
+I am interested in collaborating on projects involving:
+
+- Laravel backend development
+- API design and integrations
+- Payment and transactional systems
+- Real-time applications
+- Database optimization
+- Software architecture improvements
+
+---
+
+# 💬 Topics I Enjoy Discussing
+
+- Laravel application architecture
+- Designing maintainable backend systems
+- Database transactions and consistency
+- Domain-driven design
+- Testing strategies
+- API design
+- Open-source package development
+
+---
+
+# ⚡ Engineering Philosophy
+
+I value **predictability over cleverness** and **clarity over unnecessary abstraction**.
+
+Good software is not only about making code work. It is about creating systems that remain understandable, adaptable, and reliable as they grow.
+
+I enjoy refactoring complex systems because it reveals better boundaries, clearer responsibilities, and stronger design decisions.
+
+---
+
+# 🌐 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adil-omer-8aab21167/)
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adilazhariosman@gmail.com)
+
+---
+
+# 📊 GitHub Activity
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AdilAzhari&show_icons=true&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AdilAzhari&layout=compact&hide_border=true)
