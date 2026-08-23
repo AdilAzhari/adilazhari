@@ -61,9 +61,22 @@ Beyond my own packages, I contribute fixes upstream to packages I use:
 
 # 🚀 Featured Projects
 
-## [Madarik — School Management System](https://github.com/AdilAzhari/madarik)
+## Madarik — School Management System
 
-A multi-tenant Laravel SaaS platform for academic workflows, student records, and administrative operations, with domain isolation and RBAC.
+A multi-tenant Laravel SaaS platform for academic workflows, student records, and administrative operations, with domain isolation and RBAC. Sold as a commercial product to schools, so the source is closed — the live demo below is the best way to explore it.
+
+🔗 **Live demo:** [madarik.aljebal-albeedos.com](https://madarik.aljebal-albeedos.com)
+
+**Demo credentials** (password shared across all roles):
+
+| Role | Email |
+|---|---|
+| Developer | `developer@madarik.test` |
+| Principal | `principal@madarik.test` |
+| Admin | `admin@madarik.test` |
+| Parent | `parent@madarik.test` |
+
+Password (all roles): `o/\Efy1vP0k?aOgM`
 
 ### Highlights
 
