@@ -75,26 +75,20 @@ A multi-tenant Laravel SaaS platform for academic workflows, student records, an
 
 ---
 
-## [Car Rental System](https://github.com/AdilAzhari/Car-Rental-System)
+## Modular E-Commerce System
 
-A modular car rental management system focused on applying clean architecture principles to complex business workflows.
-
-### Highlights
-
-- Vehicle management, booking workflows, and customer handling structured around clear domain boundaries
-- Uses observers, DTOs, and policies to keep business rules isolated and maintainable
-- Analytics dashboard built with Laravel, Inertia.js (Vue), and Filament
-
----
-
-## [DevFlow](https://github.com/AdilAzhari/DevFlow)
-
-A multi-tenant project management system for organizations managing projects, tasks, teams, and collaboration.
+A Laravel application focused on applying software design principles to complex business workflows.
 
 ### Highlights
 
-- Built with Laravel and Vue, designed with SaaS scalability in mind
-- Multi-tenant data isolation across organizations, projects, and teams
+- Structured application logic around clear business domains
+- Applied Domain-Driven Design concepts such as:
+  - Value Objects
+  - Domain Events
+  - Business rule isolation
+- Designed multi-tenant architecture with automated tenant scoping
+- Implemented event-driven workflows between business modules
+- Built administrative interfaces using Filament
 
 ---
 
