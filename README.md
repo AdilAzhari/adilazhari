@@ -25,15 +25,17 @@ My main areas of focus:
 
 ---
 
-# 📦 Open Source
+# 📦 Open Source Packages
 
-## Laravel Idempotency
+I maintain a small set of focused, single-purpose Laravel packages rather than one large toolkit — each solves one problem well and ships with a full automated quality pipeline (PestPHP, PHPStan, Rector, Laravel Pint).
 
-A Laravel package that prevents duplicate request execution using idempotency keys.
+## [laravel-trace](https://github.com/AdilAzhari/laravel-trace)
 
-Designed for protecting write operations such as payments, orders, and external API calls where retrying the same request can create unwanted side effects.
+Application-level tracing for Laravel applications — request, query, and event-level spans for understanding what an application actually did during a request.
 
-### Features
+## [laravel-idempotency](https://github.com/AdilAzhari/laravel-idempotency)
+
+Prevents duplicate request execution using idempotency keys. Built for protecting write operations such as payments, orders, and external API calls where retrying the same request can create unwanted side effects.
 
 - Middleware-based idempotency handling
 - Request fingerprinting using SHA-256
@@ -41,23 +43,27 @@ Designed for protecting write operations such as payments, orders, and external 
 - Conflict detection for reused keys with different requests
 - Cache-based locking to prevent concurrent execution
 - Extensible contracts for storage, locking, and fingerprinting
-- Automated quality pipeline using:
-  - PestPHP
-  - PHPStan
-  - Rector
-  - Laravel Pint
 
-Repository:
+## [laravel-auto-slug](https://github.com/AdilAzhari/laravel-auto-slug)
 
-🔗 https://github.com/AdilAzhari/laravel-idempotency
+Automatic slug generation for Eloquent models, published on [Packagist](https://packagist.org/packages/adilazhari/laravel-auto-slug).
+
+---
+
+# 🌱 Open Source Contributions
+
+Beyond my own packages, I contribute fixes upstream to packages I use:
+
+- **[laravel/socialite#790](https://github.com/laravel/socialite/pull/790)** — traced and documented an undocumented config requirement in `SocialiteManager::buildProvider()`
+- **[santifer/career-ops#3199](https://github.com/santifer/career-ops/pull/3199)** (merged) and **[#3217](https://github.com/santifer/career-ops/pull/3217)** — hardened CLI flag validation against silent typo/argument bugs in an open-source job-search tracking tool
 
 ---
 
 # 🚀 Featured Projects
 
-## Madarik — School Management System
+## [Madarik — School Management System](https://github.com/AdilAzhari/madarik)
 
-A Laravel-based platform designed to manage academic workflows, student records, and administrative operations.
+A multi-tenant Laravel SaaS platform for academic workflows, student records, and administrative operations, with domain isolation and RBAC.
 
 ### Highlights
 
@@ -67,27 +73,28 @@ A Laravel-based platform designed to manage academic workflows, student records,
 - Built interactive dashboards using Laravel, Vue.js, and Inertia.js
 - Focused on maintainable domain logic and scalable application structure
 
-Repository:
-
-🔗 https://github.com/AdilAzhari/madarik
-
-
 ---
 
-## Modular E-Commerce System
+## [Car Rental System](https://github.com/AdilAzhari/Car-Rental-System)
 
-A Laravel application focused on applying software design principles to complex business workflows.
+A modular car rental management system focused on applying clean architecture principles to complex business workflows.
 
 ### Highlights
 
-- Structured application logic around clear business domains
-- Applied Domain-Driven Design concepts such as:
-  - Value Objects
-  - Domain Events
-  - Business rule isolation
-- Designed multi-tenant architecture with automated tenant scoping
-- Implemented event-driven workflows between business modules
-- Built administrative interfaces using Filament
+- Vehicle management, booking workflows, and customer handling structured around clear domain boundaries
+- Uses observers, DTOs, and policies to keep business rules isolated and maintainable
+- Analytics dashboard built with Laravel, Inertia.js (Vue), and Filament
+
+---
+
+## [DevFlow](https://github.com/AdilAzhari/DevFlow)
+
+A multi-tenant project management system for organizations managing projects, tasks, teams, and collaboration.
+
+### Highlights
+
+- Built with Laravel and Vue, designed with SaaS scalability in mind
+- Multi-tenant data isolation across organizations, projects, and teams
 
 ---
 
