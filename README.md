@@ -1,6 +1,8 @@
 # Hi, I'm Adil Omer 👋
 
-Backend Software Engineer based in Malaysia 🇲🇾, building reliable Laravel systems — clean architecture, domain-driven design, and software that stays maintainable as it grows.
+Backend Software Engineer based in Malaysia 🇲🇾, building reliable Laravel systems — with a focus on clean architecture, domain-driven design, and software that remains maintainable as it grows.
+
+> 🚀 **Open to opportunities:** I'm open to backend engineering roles, freelance opportunities, and contributing to interesting open-source projects. If you're building something meaningful and looking for a contributor or engineer, feel free to reach out.
 
 <p>
   <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP">
@@ -17,18 +19,12 @@ Backend Software Engineer based in Malaysia 🇲🇾, building reliable Laravel 
 
 ## Open Source
 
-I maintain a small set of focused, single-purpose Laravel packages rather than one large toolkit — each solves one problem well and ships with a full automated quality pipeline (PestPHP, PHPStan, Rector, Laravel Pint).
+I maintain a small set of focused, single-purpose Laravel packages rather than one large toolkit. Each package is designed to solve a specific problem well and is backed by an automated quality pipeline using PestPHP, PHPStan, Rector, and Laravel Pint.
 
-| Package | Description |
-|---|---|
-| **[laravel-trace](https://github.com/AdilAzhari/laravel-trace)** | Application-level tracing — request, query, and event-level spans for understanding what an application actually did during a request. |
-| **[laravel-idempotency](https://github.com/AdilAzhari/laravel-idempotency)** | Prevents duplicate request execution via idempotency keys: request fingerprinting, response replay, conflict detection, and cache-based locking — for payments, orders, and external API calls where a retried request can't be allowed to double-execute. |
-| **[laravel-auto-slug](https://github.com/AdilAzhari/laravel-auto-slug)** | Automatic slug generation for Eloquent models. Published on [Packagist](https://packagist.org/packages/adilazhari/laravel-auto-slug). |
-
-**Upstream contributions** — fixes to packages I use, not just my own:
-
-- **[laravel/socialite#790](https://github.com/laravel/socialite/pull/790)** — traced and documented an undocumented config requirement in `SocialiteManager::buildProvider()`
-- **[santifer/career-ops#3199](https://github.com/santifer/career-ops/pull/3199)** (merged) & **[#3217](https://github.com/santifer/career-ops/pull/3217)** — hardened CLI flag validation against silent typo/argument bugs
+| Package                                                                      | Description                                                                                                                                                                                                                                             |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[laravel-trace](https://github.com/AdilAzhari/laravel-trace)**             | Application-level tracing — request, query, and event-level spans for understanding what an application actually did during a request.                                                                                                                  |
+| **[laravel-idempotency](https://github.com/AdilAzhari/laravel-idempotency)** | Prevents duplicate request execution via idempotency keys: request fingerprinting, response replay, conflict detection, and cache-based locking — useful for payments, orders, and external API calls where a retry must not cause duplicate execution. |
 
 ---
 
@@ -36,36 +32,72 @@ I maintain a small set of focused, single-purpose Laravel packages rather than o
 
 ### Madarik — School Management System
 
-A multi-tenant Laravel SaaS platform for academic workflows, student records, and administrative operations, with domain isolation and RBAC. Sold as a commercial product to schools, so the source is closed — the live demo is the best way to explore it.
+A multi-tenant Laravel SaaS platform for academic workflows, student records, and administrative operations, with domain isolation and role-based access control.
 
-🔗 **Live demo:** [madarik.aljebal-albeedos.com](https://madarik.aljebal-albeedos.com)
+Madarik is a commercial product used by schools, so its source code is private. The live deployment provides the best way to explore the system.
+
+🔗 **[Live demo](https://madarik.aljebal-albeedos.com)**
 
 <details>
-<summary><strong>Demo credentials</strong> (click to expand — same password for every role)</summary>
+<summary><strong>Demo credentials</strong> (click to expand)</summary>
+
 <br>
 
-| Role | Email |
-|---|---|
+| Role      | Email                    |
+| --------- | ------------------------ |
 | Developer | `developer@madarik.test` |
 | Principal | `principal@madarik.test` |
-| Admin | `admin@madarik.test` |
-| Parent | `parent@madarik.test` |
+| Admin     | `admin@madarik.test`     |
+| Parent    | `parent@madarik.test`    |
 
 **Password (all roles):** `o/\Efy1vP0k?aOgM`
 
 </details>
 
-- Backend workflows for student management, grading, and reporting
-- Role-based access control across distinct user groups (developer, principal, admin, parent)
-- Redis-queued background processing, dashboards built with Laravel, Vue.js, and Inertia.js
+* Backend workflows for student management, grading, and reporting
+* Role-based access control across distinct user groups
+* Redis-backed background processing
+* Dashboards built with Laravel, Vue.js, and Inertia.js
+* Multi-tenant architecture with isolated application contexts
 
 ### Modular E-Commerce System
 
-A Laravel application applying DDD to complex, multi-tenant business workflows.
+A Laravel application designed around domain-driven design and complex, multi-tenant business workflows.
 
-- Business logic structured around clear domains, using value objects, domain events, and isolated business rules
-- Multi-tenant architecture with automated tenant scoping and event-driven workflows between modules
-- Administrative interfaces built with Filament
+* Business logic structured around clear domains, value objects, domain events, and isolated business rules
+* Multi-tenant architecture with automated tenant scoping
+* Event-driven workflows between application modules
+* Administrative interfaces built with Filament
+* Focus on maintainability, separation of concerns, and scalable business logic
+
+---
+
+## Engineering Interests
+
+I'm particularly interested in backend engineering problems where correctness and maintainability matter:
+
+* Domain-Driven Design
+* Multi-Tenant Architecture
+* Distributed Systems
+* Idempotency & Reliable Request Processing
+* Event-Driven Architecture
+* Background Jobs & Queues
+* Observability & Application Tracing
+* API Design
+* Automated Testing
+* Code Quality & Static Analysis
+* Laravel Ecosystem & Package Development
+
+---
+
+## GitHub
+
+I maintain projects across two GitHub accounts:
+
+* **Primary:** [github.com/AdilAzhari](https://github.com/AdilAzhari)
+* **Additional:** [github.com/AdilAzhariOmsan](https://github.com/AdilAzhariOmsan)
+
+For the most recent backend engineering work, packages, and projects, start with my primary account.
 
 ---
 
